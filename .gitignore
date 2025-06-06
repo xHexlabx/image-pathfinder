@@ -16,3 +16,6 @@ map.png
 *.egg-info/
 dist/
 build/
+
+#IDE
+.idea
