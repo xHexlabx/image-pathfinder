@@ -10,6 +10,7 @@ def run_pathfinder():
 
     try:
         grid_data, red_points = parse_image_to_grid(IMAGE_FILE)
+
     except FileNotFoundError as e:
         print(e)
         print("Hint: You can create a sample map by running the 'createmap' command.")
